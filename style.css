@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 25px;
+    color: black;
+}
+.Mid{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+input{
+    padding: 10px;
+    width: 100%;
+}
+.mid2{
+    box-shadow: rgba(255, 105, 180, 0.25) 0px 54px 55px,
+     rgba(128, 0, 128, 0.12) 0px -12px 30px, rgba(255, 192, 203, 0.12) 0px 4px 6px,
+      rgba(128, 0, 128, 0.17) 0px 12px 13px, rgba(218, 112, 214, 0.09) 0px -3px 5px;
+    padding: 70px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.button button{
+    color: rgb(245, 192, 255);
+    background-color: rgb(248, 39, 255);
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.log2{
+    box-shadow: rgba(255, 4, 159, 0.25) 0px 54px 55px,
+     rgba(128, 0, 128, 0.12) 0px -12px 30px, rgba(255, 192, 203, 0.12) 0px 4px 6px,
+      rgba(128, 0, 128, 0.17) 0px 12px 13px, rgba(218, 112, 214, 0.09) 0px -3px 5px;
+    
+      padding: 90px;
+      width: 25%;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.forgot2{
+    box-shadow: rgba(255, 4, 159, 0.25) 0px 54px 55px,
+     rgba(128, 0, 128, 0.12) 0px -12px 30px, rgba(255, 192, 203, 0.12) 0px 4px 6px,
+      rgba(128, 0, 128, 0.17) 0px 12px 13px, rgba(218, 112, 214, 0.09) 0px -3px 5px;
+    
+      padding: 90px;
+      width: 25%;
+     
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.form2{
+    box-shadow: rgba(255, 4, 159, 0.25) 0px 54px 55px,
+     rgba(128, 0, 128, 0.12) 0px -12px 30px, rgba(255, 192, 203, 0.12) 0px 4px 6px,
+      rgba(128, 0, 128, 0.17) 0px 12px 13px, rgba(218, 112, 214, 0.09) 0px -3px 5px;
+    
+      padding: 90px;
+      width: 25%;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.page2{
+    box-shadow: rgba(255, 4, 159, 0.25) 0px 54px 55px,
+     rgba(128, 0, 128, 0.12) 0px -12px 30px, rgba(255, 192, 203, 0.12) 0px 4px 6px,
+      rgba(128, 0, 128, 0.17) 0px 12px 13px, rgba(218, 112, 214, 0.09) 0px -3px 5px;
+    
+      padding: 90px;
+      width: 25%;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #f5149e;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+

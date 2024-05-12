@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>My Mai</title>
+
+</head>
+<body>
+    <div class="container">
+        <div>
+            <div class="Top">
+                <h1>My Mai</h1>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Transaction</a>
+                    <a href="#">Categories</a> <a href="#">Report</a>
+                    <a href="#">Budgets</a>
+                </nav>
+            </div>
+            </div>
+            </div>
+            <div class="log">
+                <div class="log2">
+                    <h1>Login</h1>
+                    <h3>Signin to continue</h3>
+                    <p>Please enter Email</p>
+                    <input type="text">
+                    <p>Please enter Password</p>
+                    <input type="text">
+                     <div class="button">
+                        <button>Login</button>
+                    </div>
+                </div>
+        
+            </div>
+.log{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.log2{
+    box-shadow: rgba(255, 4, 159, 0.25) 0px 54px 55px,
+     rgba(128, 0, 128, 0.12) 0px -12px 30px, rgba(255, 192, 203, 0.12) 0px 4px 6px,
+      rgba(128, 0, 128, 0.17) 0px 12px 13px, rgba(218, 112, 214, 0.09) 0px -3px 5px;
+    
+      padding: 90px;
+      width: 25%;
+}
